@@ -1,6 +1,6 @@
 title: Rust GUIs
 url: insightoptech.github.io/rust_gui
-theme: cayman
+theme: Cayman
 plugins:
   - jekyll-sitemap
   - jekyll-feed
