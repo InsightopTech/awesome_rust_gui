@@ -19,3 +19,11 @@
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,makepad/makepad,cunarist/rust-in-flutter&type=Date" />
   </picture>
 </a>
+
+<a href="https://star-history.com/#slint-ui/slint&emilk/egui&iced-rs/iced&linebender/druid&PistonDevelopers/conrod&redox-os/orbtk&hecrj/coffee&kas-gui/kas&native-dialog-rs/native-dialog-rs&makepad/makepad&cunarist/rust-in-flutter&Timeline">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,makepad/makepad,cunarist/rust-in-flutter&type=Timeline&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,makepad/makepad,cunarist/rust-in-flutter&type=Timeline" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,makepad/makepad,cunarist/rust-in-flutter&type=Timeline" />
+  </picture>
+</a>
