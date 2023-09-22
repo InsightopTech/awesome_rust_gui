@@ -1,5 +1,5 @@
 title: Rust GUIs
-url: insightoptech.github.io/rust_gui
+url: insightoptech.github.io/awesome_rust_gui
 remote_theme: pages-themes/hacker
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
