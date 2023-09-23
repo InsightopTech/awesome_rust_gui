@@ -15,13 +15,13 @@
 | rust-in-flutter                  | [![GitHub](https://img.shields.io/github/stars/cunarist/rust-in-flutter)](https://github.com/cunarist/rust-in-flutter)                   | [![Last Commit](https://img.shields.io/github/last-commit/cunarist/rust-in-flutter)](https://github.com/cunarist/rust-in-flutter/)                  | [![crates.io](https://img.shields.io/crates/v/rifs)](https://crates.io/crates/rifs) <BR/> [![Pub Version](https://img.shields.io/pub/v/rust_in_flutter)](https://pub.dev/packages/rust_in_flutter) | [![docs.rs](https://docs.rs/rifs/badge.svg)](https://docs.rs/rifs)                   | [![license](https://img.shields.io/crates/l/rifs)](https://github.com/cunarist/rust-in-flutter/blob/master/LICENSE)                   |
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,makepad/makepad,DioxusLabs/dioxus,marc2332/freya,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,cunarist/rust-in-flutter&type=Date&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,makepad/makepad,DioxusLabs/dioxus,marc2332/freya,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,cunarist/rust-in-flutter&type=Date" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,makepad/makepad,DioxusLabs/dioxus,marc2332/freya,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,cunarist/rust-in-flutter&type=Date" />
-</picture>
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,makepad/makepad,DioxusLabs/dioxus,marc2332/freya,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,cunarist/rust-in-flutter&type=Timeline&theme=dark" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,makepad/makepad,DioxusLabs/dioxus,marc2332/freya,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,cunarist/rust-in-flutter&type=Timeline" />
   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,makepad/makepad,DioxusLabs/dioxus,marc2332/freya,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,cunarist/rust-in-flutter&type=Timeline" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,makepad/makepad,DioxusLabs/dioxus,marc2332/freya,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,cunarist/rust-in-flutter&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,makepad/makepad,DioxusLabs/dioxus,marc2332/freya,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,cunarist/rust-in-flutter&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,makepad/makepad,DioxusLabs/dioxus,marc2332/freya,linebender/druid,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,cunarist/rust-in-flutter&type=Date" />
 </picture>
