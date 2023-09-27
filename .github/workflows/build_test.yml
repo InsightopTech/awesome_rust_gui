@@ -39,7 +39,7 @@ jobs:
 
       - name: Install pkg-config (Linux only)
         if: matrix.runner == 'ubuntu'
-        run: brew install pkg-config
+        run: sudo apt update & sudo apt install -y pkg-config
 
       - name: Build ${{ matrix.framework }} example
         working-directory: examples/
