@@ -10,6 +10,7 @@
     "onclick",
     "orbtk",
     "slint",
-    "srcset"
+    "srcset",
+    "tauri"
   ]
 }
