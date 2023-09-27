@@ -44,7 +44,7 @@ jobs:
       - name: Install GKT (Linux only)
         if: matrix.runner == 'ubuntu'
         run: |
-          sudo apt update 
+          sudo apt update -y
           sudo apt install -y libgtk-3-dev libsoup # pkg-config
 
       - name: Build ${{ matrix.framework }} example
