@@ -5,8 +5,9 @@ A collection of awesome Rust GUI libraries with examples.
 
 ## Usage
 
-- cargo run --bin [target]
-- target:
+`cargo run --bin [target]`
+
+  target:
   - dioxus
   - druid
   - freya
