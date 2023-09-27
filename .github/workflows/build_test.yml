@@ -5,10 +5,14 @@ on:
     branches:
       - main
     paths-ignore:
+      - ".vscode/**"
       - "**.md"
+      - "LICENSE"
   pull_request:
     paths-ignore:
+      - ".vscode/**"
       - "**.md"
+      - "LICENSE"
   workflow_dispatch:
 
 concurrency:
