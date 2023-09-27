@@ -4,8 +4,33 @@
 )]
 
 use freya::prelude::*;
-mod app;
 
 fn main() {
-    launch(app::app_window);
+    launch(app);
+}
+fn app(cx: Scope) -> Element {
+    let mut count = use_state(cx, || 0);
+
+    render!(
+        rect {
+            height: "20%",
+            width: "100%",
+            background: "rgb(233, 196, 106)",
+            padding: "12",
+            color: "rgb(20, 33, 61)",
+            label {
+                font_size: "20",
+                "Number is: {count}"
+            }
+        }
+        rect {
+            height: "80%",
+            width: "100%",
+            background: "rgb(168, 218, 220)",
+            color: "black",
+            padding: "12",
+            onclick: move |_| count += 1,
+            label { "Click to increase!" }
+        }
+    )
 }

@@ -1,5 +1,6 @@
 # Awesome Rust GUI
 
+[![build-test](https://github.com/InsightopTech/awesome_rust_gui/actions/workflows/build_test.yml/badge.svg)](https://github.com/InsightopTech/awesome_rust_gui/actions/workflows/build_test.yml)
 A collection of awesome Rust GUI libraries with examples.
 
 ## Usage
