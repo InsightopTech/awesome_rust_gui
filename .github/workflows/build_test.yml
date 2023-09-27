@@ -26,7 +26,7 @@ jobs:
       fail-fast: false # Important
       matrix:
         runner: [ubuntu, windows, macos]
-        framework: [dioxus, druid, freya, iced, makepad, slint]
+        framework: [azul, dioxus, druid, freya, iced, makepad, slint, tauri]
 
     steps:
       - name: Checkout repository
@@ -37,6 +37,10 @@ jobs:
       - name: Setup Rust toolchain
         uses: dtolnay/rust-toolchain@stable
 
-      - name: Build target
+      - name: Install pkg-config (Linux only)
+        if: matrix.runner == 'ubuntu'
+        run: brew install pkg-config
+
+      - name: Build ${{ matrix.framework }} example
         working-directory: examples/
         run: cargo build --bin ${{matrix.framework}}
