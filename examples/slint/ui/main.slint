@@ -1,0 +1,29 @@
+
+import {    
+    GroupBox, LineEdit, Button, 
+    Slider, SpinBox,
+    StandardTableView    
+} from "std-widgets.slint";
+
+MainWindow := Window{
+    title: "Awesome rust gui -- Slint";
+    width: 600px;
+    height: 500px;
+    VerticalLayout { 
+        spacing: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        alignment: center;
+        Button {
+            text: "Click Me";
+            clicked => { self.text = "Clicked"; }
+        }
+        Text { 
+            height: 50px;
+            font-size: 27px;
+            font-weight: 700;
+            color: #6776FF;  
+            text: "Hello World";
+         }
+    }
+}

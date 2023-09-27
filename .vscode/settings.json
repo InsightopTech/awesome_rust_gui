@@ -3,8 +3,10 @@
     "conrod",
     "dioxus",
     "egui",
+    "Insightop",
     "insightoptech",
     "makepad",
+    "onclick",
     "orbtk",
     "slint",
     "srcset"

@@ -1,0 +1,53 @@
+name: formatting-test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: >
+    ${{ github.workflow }}
+    ${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dart:
+    name: rust-code
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install Clippy
+        run: rustup component add clippy
+
+      - name: Format Rust code
+        run: |
+          cargo fmt
+          cargo clippy --fix --allow-dirty
+
+      - name: Check if the code has changed
+        run: git diff --exit-code
+
+  config:
+    name: configuration-files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Check files with Prettier
+        uses: creyD/prettier_action@v4.3
+        with:
+          dry: True
+          prettier_options: >
+            --write
+            ./**/*.{md,yaml}

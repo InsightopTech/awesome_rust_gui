@@ -1,0 +1,42 @@
+name: build-test
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "**.md"
+  pull_request:
+    paths-ignore:
+      - "**.md"
+  workflow_dispatch:
+
+concurrency:
+  group: >
+    ${{ github.workflow }}
+    ${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: ${{ matrix.runner }} / ${{ matrix.framework }}
+    runs-on: ${{ matrix.runner }}-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false # Important
+      matrix:
+        runner: [ubuntu, windows, macos]
+        framework: [dioxus, druid, freya, iced, makepad, slint]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Setup Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Build target
+        working-directory: examples/
+        run: cargo build --bin ${{matrix.framework}}
