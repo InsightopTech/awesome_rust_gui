@@ -24,9 +24,8 @@ jobs:
 
       - name: Setup Rust toolchain
         uses: dtolnay/rust-toolchain@stable
-
-      - name: Install Clippy
-        run: rustup component add clippy
+        with:
+          components: clippy rustfmt
 
       - name: Format Rust code
         run: |
