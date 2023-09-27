@@ -41,9 +41,11 @@ jobs:
       - name: Setup Rust toolchain
         uses: dtolnay/rust-toolchain@stable
 
-      - name: Install pkg-config (Linux only)
+      - name: Install GKT (Linux only)
         if: matrix.runner == 'ubuntu'
-        run: sudo apt update & sudo apt install -y pkg-config
+        run: |
+          sudo apt update 
+          sudo apt install -y libgtk-3-dev # pkg-config
 
       - name: Build ${{ matrix.framework }} example
         working-directory: examples/
