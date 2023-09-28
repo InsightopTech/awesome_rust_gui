@@ -5,9 +5,12 @@
     "dioxus",
     "eframe",
     "egui",
+    "glium",
+    "glutin",
     "imgui",
     "Insightop",
     "insightoptech",
+    "leptos",
     "libui",
     "makepad",
     "onclick",
@@ -15,6 +18,8 @@
     "sciter",
     "slint",
     "srcset",
-    "tauri"
+    "tauri",
+    "typemap",
+    "winit"
   ]
 }

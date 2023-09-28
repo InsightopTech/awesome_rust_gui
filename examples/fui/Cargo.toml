@@ -1,10 +1,15 @@
 [package]
-name = "freya"
+name = "fui"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-freya = "0.1"
-dioxus = "0.4"
+anyhow = "1.0"
+tokio = "1.32"
+fui = "2.1"
+fui_app = "0.13"
+fui_core = "0.13"
+fui_controls = "0.13"
+fui_macros = "0.3"

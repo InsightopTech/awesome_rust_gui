@@ -71,3 +71,19 @@ jobs:
           path: |
             examples/target/release/${{ matrix.framework }}?
             !examples/target/release/*.d
+
+  performance:
+    name: Performance analysis
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Install performance analysis tools
+        run: |
+          cargo install flamegraph
+          cargo install cargo-profiler
+
+    # - name: Performance analysis
+    #   working-directory: examples/
+    #   run: |
+    #     cargo flamegraph --bin ${{matrix.framework}} --example ${{matrix.framework}} -- --release
+    #     cargo profiler callgrind --bin ${{matrix.framework}} --example ${{matrix.framework}} -- --release
