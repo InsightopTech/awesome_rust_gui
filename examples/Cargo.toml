@@ -1,4 +1,14 @@
 [workspace]
 resolver = "2"
 
-members = ["dioxus", "druid", "freya", "iced", "makepad", "slint"]
+members = [
+    "azul",
+    "dioxus",
+    "druid",
+    "egui",
+    "freya",
+    "iced",
+    "makepad",
+    "slint",
+    "tauri",
+]
