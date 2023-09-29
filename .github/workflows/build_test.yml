@@ -69,8 +69,8 @@ jobs:
         with:
           name: ${{ matrix.runner }}_${{ matrix.framework }}_example
           path: |
-            examples/target/release/${{ matrix.framework }}?
-            !examples/target/release/*.d
+            examples/target/release/${{ matrix.framework }}
+            examples/target/release/${{ matrix.framework }}.exe
 
   performance:
     name: Performance analysis
