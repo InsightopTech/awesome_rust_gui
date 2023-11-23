@@ -2,6 +2,7 @@
   "cSpell.words": [
     "azul",
     "conrod",
+    "devcontainer",
     "dioxus",
     "eframe",
     "egui",
@@ -15,11 +16,14 @@
     "makepad",
     "onclick",
     "orbtk",
+    "rustc",
     "sciter",
+    "skia",
     "slint",
     "srcset",
     "tauri",
     "typemap",
+    "vadimcn",
     "winit"
   ]
 }

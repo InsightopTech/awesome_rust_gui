@@ -1,3 +1,11 @@
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+# links = "skia"
+# links-skia = "dynamic"
+
+
 [workspace]
 resolver = "2"
 members = [
@@ -11,7 +19,27 @@ members = [
     "imgui",
     "leptos",
     "makepad",
-    "rui",
+    # "rui",
     "slint",
     # "tauri",
 ]
+
+[workspace.dependencies]
+skia-safe = { version = "0.68.0", features = [
+    "textlayout",
+    "gl",
+    "metal",
+    "svg",
+] }
+
+# [patch.'crates-io'.skia-safe]
+# version = "0.68.0"
+# registry = "crates-io"
+# features = ["textlayout", "gl", "metal", "svg"]
+# workspace = true
+# links = "skia"
+# links-skia = "dynamic"
+
+
+# [replace]
+# "skia-safe" = { version = "0.68" }

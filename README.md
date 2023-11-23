@@ -57,3 +57,30 @@ target:
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,makepad/makepad,DioxusLabs/dioxus,marc2332/freya,fschutt/azul,tauri-apps/tauri,linebender/druid,imgui-rs/imgui-rs,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,cunarist/rust-in-flutter,rust-native-ui/libui-rs,microsoft/windows-rs,sciter-sdk/rust-sciter,gabdube/native-windows-gui,leptos-rs/leptos,audulus/rui,marek-g/rust-fui&type=Date" />
   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=slint-ui/slint,emilk/egui,iced-rs/iced,makepad/makepad,DioxusLabs/dioxus,marc2332/freya,fschutt/azul,tauri-apps/tauri,linebender/druid,imgui-rs/imgui-rs,PistonDevelopers/conrod,redox-os/orbtk,hecrj/coffee,kas-gui/kas,native-dialog-rs/native-dialog-rs,cunarist/rust-in-flutter,rust-native-ui/libui-rs,microsoft/windows-rs,sciter-sdk/rust-sciter,gabdube/native-windows-gui,leptos-rs/leptos,audulus/rui,marek-g/rust-fui&type=Date" />
 </picture>
+
+# File structure
+
+- .devcontainer
+
+  - .devcontainer.json
+  - Dockerfile
+  - settings.json
+
+- .github
+
+  - workflows
+
+    - build_test.yml
+    - formatting_test.yml
+    - jekyll-gh-pages.yml
+
+- .vscode
+
+  - extensions.json
+  - launch.json
+  - settings.json
+  - tasks.json
+
+- examples
+
+- config.yml
